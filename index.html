@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>This is a sample site using WOVN.io.</h1>
+
+    <div>
+      This site is added one line script tag like the following.
+      <pre>&lt;script src="//j.wovn.io/1" data-wovnio="key=?????" async&gt;&lt;/script&gt;</pre>
+    </div>
+
+    <div>
+      <div>
+        This image will be also replaced when changing language.
+      </div>
+      <img src="./coffee.jpg" width="300px" height="300px" />
+    </div>
+
+    <div>
+      These words will be replaced when changing language.
+      <ul>
+        <li>hello</li>
+        <li>goodbye</li>
+      </ul>
+    </div>
+
+    <div>
+      These words will not be replace when changing language. The tag has "wovn-ignore" property will not be replaced.
+      <ul wovn-ignore>
+        <li>hello</li>
+        <li>goodbye</li>
+      </ul>
+    </div>
+
+    <script src="//j.wovn.io/1" data-wovnio="key=IRb6-" async></script>
+  </body>
+</html>
